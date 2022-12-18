@@ -14,20 +14,21 @@ h2 {
     color: rgb(116, 116, 199);
 }
 
-.contacts{
-    
-}
+
 .contact-list {
     padding: 5px;
-
 }
 
 .skill-list {
     padding: 5px;
 }
 
+.languages-list {
+    padding: 5px;
+}
+
 .side-column {
-    width: 30%;
+    width: 20%;
     background-color: var(--gray);
     padding: 0 50px 0 70px;
     color: white;
@@ -47,7 +48,7 @@ h2 {
 }
 
 .main {
-    width: 70%;
+    width: 80%;
     background-color: var(--white);
     display: flex;
     flex-direction: column;
