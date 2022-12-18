@@ -1,0 +1,35 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+span {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+pre {
+    margin-left: 430px;
+    margin-right: 100px;
+    background-color: rgb(194, 189, 189);
+}
+
+aside {
+    width: 300px;
+    height: 250vh;
+    padding: 40px 20px;
+    margin-right: 1.5rem;
+    font-weight: bold;
+    float: left;
+    color: white;
+    background-color: #5c7bbc;
+
+}
+
+li {
+    margin-left: 400px;
+}
+
+/*{
+    box-sizing: border-box;
+}*/
