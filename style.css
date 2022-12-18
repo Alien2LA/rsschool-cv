@@ -91,7 +91,7 @@ pre {
     margin-right: 10px;
 }
 .footer__social {
-    background-image: url(../assets/github.png);
+    background-image: url(./assets/github.png);
     background-position: center left;
     background-repeat: no-repeat;
     background-size: cover;
