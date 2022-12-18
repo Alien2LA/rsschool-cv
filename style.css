@@ -2,19 +2,117 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-span {
-    margin-left: 50px;
-    margin-right: 50px;
+main {
+    display: flex;
+}
+
+body {
+	width: 100%;
+}
+
+h2 {
+    color: rgb(116, 116, 199);
+}
+
+.contacts{
+    
+}
+.contact-list {
+    padding: 5px;
+
+}
+
+.skill-list {
+    padding: 5px;
+}
+
+.side-column {
+    width: 30%;
+    background-color: var(--gray);
+    padding: 0 50px 0 70px;
+    color: white;
+    background-color: #5c7bbc;
+    font-size: large;
 }
 
 
-pre {
-    margin-left: 430px;
+.avatar {
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    width: 250px;
+    margin: 50px auto;
+    position: relative;
+    z-index: 2;
+}
+
+.main {
+    width: 70%;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 50px;
+}
+
+span {
+    position: flex;
+    justify-content: center;
+    margin-left: 50px;
+    
+}
+
+
+.code {
     margin-right: 100px;
     background-color: rgb(194, 189, 189);
 }
 
-aside {
+.education-list {
+    font-size: large;
+
+}
+
+/* Footer Style Start */
+.footer {
+    background-color: var(--light-gray);
+    padding: 10px 0;
+    text-align: center;
+}
+.footer__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer__block:nth-child(2) {
+    margin-right: 10px;
+}
+.footer__social {
+    background-image: url(../assets/github.png);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.footer__text {
+    display: flex;
+    align-items: center;
+}
+.footer__image {
+    width: 70px;
+    margin: 0 10px;
+}
+.footer__link {
+    color: var(--text-color);
+    margin-right: 10px;
+}
+/* Footer Style End */
+
+/*aside {
     width: 300px;
     height: 250vh;
     padding: 40px 20px;
@@ -26,9 +124,9 @@ aside {
 
 }
 
-li {
+/*li {
     margin-left: 400px;
-}
+}*/
 
 /*{
     box-sizing: border-box;

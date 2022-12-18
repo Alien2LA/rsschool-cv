@@ -14,7 +14,7 @@
 <body>
     <header>
         <nav class="nav">
-            <!--<ul class="nav-list">
+           <!-- <ul class="nav-list">
               <li class="nav-item"><a href="#aboutme" class="nav-link">About Me</a></li>
               <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
               <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
@@ -23,21 +23,34 @@
             <span class="nav-item"><a href="#aboutme" class="nav-link">About Me</a></span>
               <span class="nav-item"><a href="#experience" class="nav-link">Experience</a></span>
               <span class="nav-item"><a href="#code" class="nav-link">Code example</a></span>
-              <span class="nav-item"><a href="#education" class="nav-link">Education</a></span>
+              <span class="nav-item"><a href="#education" class="nav-link">Education</a></span> 
         </nav>
     </header>
     <main>
+        <div class="side-column">
         <aside>
-            <img src="assets/img/MyPhoto.png" alt="MyPhoto" width="240" height="240">
-            <dl>Contacts
-
-            
-                <dd>Phone </dd>
-                <dd>E-mail</dd>
-                <dd>LinkdIn</dd>
+            <figure class="avatar">
+                <img src="assets/img/MyPhoto.png" class="myphoto" alt="MyPhoto" width="240" height="240">
+            </figure>
+            <dl class="contacts">Contacts 
+                <dd class="contact-list">Phone </dd>
+                <dd class="contact-list">E-mail</dd>
+                <dd class="contact-list">LinkdIn</dd>
             </dl>
 
+            <ul class="skills">Strong skills
+                <li class="skill-list">Communication</li>
+                <li class="skill-list">Responsibility</li>
+                <li class="skill-list">Team work</li>
+                <li class="skill-list">Negotiating</li>
+                <li class="skill-list">Forecasting</li>
+                <li class="skill-list">Leadership</li>
+
+            </ul>
+
         </aside>
+        </div>
+        <div class="main">
         <h1>Vladimir Kudeiarov</h1>
         
 
@@ -114,7 +127,7 @@
     <h2 id="code">Code example</h2>
     <p>Since I don't have a solid developer experience, my code sample is a part of the 3rd Java homework:</p>
 
-    <code>
+    <code class="code">
         <pre>
             public static int taxEarningsMinusSpendings(int earnings, int spendings) {
                 int tax = (earnings - spendings) * 15 / 100;
@@ -127,18 +140,30 @@
         </pre>
     </code>
 
-    <h2 id="education">Education</h2>
+    <h2 class="education">Education</h2>
 
-    <h4>Netology online school</h4>
-    <p>Java developer |  2022-2023</p>
-    <h4>Geekbrains online school</h4>
-    <p>Sales Director |  2020</p>
-    <h4>Tula State University</h4>
-    <p>Engineer's Degree |  2001 - 2006</p>
-
+    <dl class="education-list">Rolling scopes school
+        <dd>JS FE developer |  2022-2023</dd>
+    <dl class="education-list">Netology online school
+      <dd>Java developer |  2022-2023</dd>
+    </dl>
+    <dl class="education-list">Geekbrains online school
+      <dd>Sales Director |  2020</dd>
+    </dl>
+    <dl class="education-list">Tula State University
+      <dd>Engineer's Degree |  2001 - 2006</dd>
+    </dl>
+    </div>
     </main>
-    <footer>
-
+    <footer class="footer">
+        <div class="footer__inner">
+            <div class="footer__block">
+                <a href="https://github.com/Alien2LA" target="_blank" class="footer__social"></a>
+            </div>
+            <div class="footer__block">
+                <div class="footer__text">Made with support of <img src="/assets/rs-logo.svg" class="footer__image" alt=""> <a href="https://app.rs.school/" target="_blank" class="footer__link">preschool course</a> 2022</div>
+            </div>				
+        </div>
     </footer>
 </body>
 </html>
